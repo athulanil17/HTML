@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FORMS</title>
+</head>
+<body bgcolor="grey" style="min-width: 1500px">
+
+		<div style=" background-color: white; text-align: center; margin-left: 30%; margin-right: 32%; margin-top: 1.5cm">
+		<br>
+		<h1 style="font-size: 40px; font-family: Futura md bt">HTML FORM PAGE</h1>
+		<hr/>
+		<br>
+		<form>
+			<label for="name"><b>NAME:</b><span style="margin-left: 1.5cm;"></label>
+			<input type="text" name="name" placeholder="Enter your name" maxlength="25" size="45" required></span>
+			<br><br>
+
+			<label for="Email"><b>EMAIL:</b><span style="margin-left: 1.39cm"></label>
+			<input type="Email" name="Email" size="45" value=" test@example.com" required autofocus></span>
+			<br><br>
+
+			<label for="Password"><b>PASSWORD:</b></label><span style="margin-left: 0.6cm"><input type="Password" name="Password" size="45" minlength="6" placeholder="Enter your Password" required></span>
+			<br><br>
+
+			<label for="Category"><b>CATEGORY:</b></label>
+			<span style="margin-left: 0.46cm"><select id="Category" name="Category" required>
+  				<option value="Student">Student</option>
+  				<option value="Employee">Employee</option>
+  				<option value="Freelance" selected>Freelance</option>
+  			</select>
+  			</span>
+
+  			<span style="margin-left: 0.5cm">
+  			<label for="Event Date"><b>EVENT DATE:</label></b><span style="margin-left: 0.2cm"><input type="date" name="date" size="25" required></span>
+  			</span>
+  			<br><br>
+
+  			<label for="Number of Tickets:"><b>NUMBER OF TICKETS:</b>
+  			<input type="radio" name="1 TICKET"style="background-color: white;">1 TICKET
+  			<input type="radio" name="2 TICKETS"style="background-color: white;" checked>2 TICKETS
+  			<input type="radio" name="3 TICKETS"style="background-color: white;">3 TICKETS
+  			</label>
+  			<br><br>
+
+  			<label for="Online Payment"><b>ONLINE PAYMENT</b></label><input type="checkbox" name="checkbox" required>
+  			<br><br>
+  			<label for="Notes"><b>NOTES</b></label>
+  			<br>
+  			<textarea rows="4" cols="60" placeholder="Write a Note" style="resize: none;"></textarea>
+  			<br><br>
+  			<input type="submit" name="submit" size="7.5" style="font: bold;">
+  			<br>
+  			<br>
+
+
+		</form>
+	</div>
+
+</body>
+</html>
